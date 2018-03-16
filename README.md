@@ -1,16 +1,31 @@
-A Simple Web Application Using AWS RDS, Lambda, and API Gateway
+## A Simple Web Application Using AWS RDS, Lambda, and API Gateway
 
-Client
+### Client
+==========
+#### 1. GET
+- List all user info
 
-1. GET
-List all user info.
+#### 2. POST
+- Insert user ID and user NAME to RDS
+- Input - user ID/user Name
 
-2. POST
-Insert user ID and user NAME to RDS(MySql).
+#### 3. DELETE
+- Delete user info by user ID
+- Input - user ID
 
-3.DELETE
-Delete user info by user ID.
+### Server
+==========
+#### AWS Service
 
-Server
+#### 1. Amazon API Gateway
+- Method - GET/POST/DELETE
+  
+#### 2. AWS Lambda
+- Runtime - Python2.7
+- Method GET Function - awsDemoLambdaGet
+- Method POST Function - awsDemoLambda
+- Method DELETE Function - awsDemoLambdaDelete
 
-AWS API Gateway + Lambda + RDS(MySql)
+#### 3. Amazon Relational Database Service(RDS)
+- DB Engine - MySQL 5.6.39
+- DB instance class - db.t2.micro
