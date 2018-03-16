@@ -29,3 +29,12 @@
 #### 3. Amazon Relational Database Service(RDS)
 - DB Engine - MySQL 5.6.39
 - DB instance class - db.t2.micro
+
+
+*******************
+### Reference
+[Amazon]:https://aws.amazon.com/tw/
+[Docker]:https://hub.docker.com/
+[MySql]:https://www.mysql.com/
+[Python]:https://www.python.org/
+[jQuery]:https://jquery.com/
