@@ -8,9 +8,9 @@ def handler(event, context):
     message = []
 
     rds_host  = "rds-mysql-demo.csnnean90nqb.us-east-2.rds.amazonaws.com"
-    name = "KyleYangRDS"
-    password = "tiger8319610"
-    db_name = "demoRDSDB"
+    name = "USER_NAME"
+    password = "USER_PASSWORD"
+    db_name = "DB_NAME"
 
     newEmpID = json.loads(event["body"]).get("newEmpID", "BBB")
     print "newEmpID", newEmpID
