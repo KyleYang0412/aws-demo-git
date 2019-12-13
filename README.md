@@ -1,4 +1,4 @@
-## A Simple Web Application Using AWS RDS, Lambda, and API Gateway
+## A Simple Web Application Using AWS RDS + Lambda + API Gateway
 
 ### Client
 ==========
